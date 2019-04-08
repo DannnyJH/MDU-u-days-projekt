@@ -1,0 +1,25 @@
+* {
+    background-color: #68b6c0;
+}
+
+.x {
+    float: right;
+    padding-top: 5px;
+}
+
+.rows {
+    padding-top: 45px;
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.column1 {
+    float: right;
+    width: 50%;
+    position: relative;
+}

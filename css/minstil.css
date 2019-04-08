@@ -1,0 +1,158 @@
+body {
+    margin: 20px;
+    background-color: #fff;
+}
+
+
+.header {
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.logo {
+    align-content: center;
+    width: 100%;
+}
+
+.polaroid {
+    max-width: 90%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navn {
+    margin-bottom: 20px;
+    text-align: center;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poiret One',
+        cursive;
+    font-size: 30px;
+}
+
+.forsidenavn {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    top: 20%;
+    left: 26.6%;
+}
+
+.orangebox {
+    background-color: #ffaa43;
+    text-align: center;
+}
+
+.footer-container {
+    display: block;
+    margin-top: -30%;
+    padding: 10px;
+}
+
+.orangebox .row {
+    margin-bottom: 10px;
+}
+
+.orangebox ul {
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+.orangebox h5 {
+    font-size: 18px;
+    font-family: 'Poiret One', cursive;
+    color: #030058;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.hovedsidelogo {
+    width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 100%;
+    grid-gap: none;
+    grid-template-areas:
+        "elevene elevene"
+        "portfolio video"
+}
+
+.elevene {
+    grid-area: elevene;
+    background-color: orange;
+    height: 380px;
+}
+
+.portfolio {
+    grid-area: portfolio;
+    background-color: #69b6c1;
+    height: 150px;
+}
+
+.video {
+    grid-area: video;
+    background-color: #0c6e7c;
+    height: 150px;
+}
+
+.forsideelev {
+    position: relative;
+    width: 59%;
+    margin-top: 100px;
+    margin-left: 70px;
+    justify-content: center;
+}
+
+.ikon {
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.overskrift {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.overskrift1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    margin-left: 36px;
+    margin-top: 0px;
+}
+
+.ikonpil {
+    position: absolute;
+    width: 13%;
+    margin-top: 200px;
+
+}
+
+.ikonpilone {
+    margin-left: 20px;
+}
+
+.ikonpiltwo {
+    left: 290px;
+
+}

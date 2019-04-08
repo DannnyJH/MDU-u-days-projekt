@@ -1,0 +1,33 @@
+body {
+    background-repeat: no-repeat;
+    background-image: url("qrbaggrund.png");
+    background-size: 100%;
+
+}
+
+.top {
+    margin-top: 110px;
+}
+
+h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+}
+
+.centerStyle {
+    text-align: center;
+}
+
+.scan {
+    margin-top: 90px;
+    font-size: 40px;
+    color: #68b6c0;
+}
+
+.qrKode {
+    margin-top: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}

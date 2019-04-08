@@ -1,0 +1,48 @@
+* {
+    background-color: #68b6c0;
+}
+
+.x {
+    float: right;
+    padding-top: 5px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    background-color: white;
+    font-size: 23px;
+    font-family:'Raleway', sans-serif;
+}
+
+.line {
+    position: absolute;
+    top: 44%;
+    left: 29%;
+    background-color: white;
+    font-size: 18px;
+    font-family:'Raleway', sans-serif;
+}
+
+.line1 {
+    position: absolute;
+    top: 47%;
+    left: 26%;
+    background-color: white;
+    font-size: 19px;
+    font-family:'Raleway', sans-serif;
+}
+
+.line2 {
+    position: absolute;
+    top: 57%;
+    left: 36%;
+    background-color: white;
+    font-family:'Raleway', sans-serif;
+}
